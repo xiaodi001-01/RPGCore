@@ -6,12 +6,12 @@ CmdTrans={
         "IsFunction":True,
         "ArgCount":1
     },
-    "imprt":{
-        "PythonCmd":"print(",
-        "IsPythonCmd":False,
+    "imprtImgRes()":{
+        "PythonCmd":"pygame.image.load(",
+        "IsPythonCmd":True,
         "IsFunction":True,
         "ArgCount":1
-    } # type: ignore
+    }
 }
 def init():
     return Auther, Version, CmdTrans
